@@ -41,16 +41,21 @@ public class StreamApi {
 
         list.stream().map(multiplier).forEach(System.out::println);
 
-        Function<Integer,String> EO=(num)->num%2==0 ? "even" : "odd";
+        Function<Integer,String> EO;
+        EO = (num)->num%2==0 ? "even" : "odd";
 
         List<String> list1=Arrays.asList("suadrshan","jadhav","mahesh");
-        list1 .stream().map((str)->str.toUpperCase()).forEach(System.out::println);
+        list1 .stream().map(String::toUpperCase).forEach(System.out::println);
 
 
         System.out.println();
         List list2= Arrays.asList(1,2,3,4,5,10,101);
         Predicate<Integer> predicate=(num)->num<10;
         list2.stream().filter(predicate).forEach(System.out::println);
+
+        System.out.println();
+        Predicate<Integer> predicate1=(num)->num>=10;
+        list2.stream().filter(predicate1).forEach(System.out::println);
     }
 
 }
