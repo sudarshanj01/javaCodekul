@@ -1,0 +1,8 @@
+Features of java 8:-
+
+Functional interface and Lambada expression
+method references
+default and static keyword in interface
+stream api
+optional keyword
+LocalDate,LocalTime,LocalDateTime,Duration,Period,Zone

@@ -1,0 +1,41 @@
+inerface 1.normal having multiple method
+          2. mark up -empty inerface
+          3.functional- An Interface that contains only one abstract method is known as functional interface.
+                        It can have any number of default and static methods.
+                        It can also declare methods of object class.
+
+
+
+you can create lambda expresion only when we r using functional interface
+
+
+
+Hierarchy of collection Framework
+
+    iterable
+        |
+    collection
+        |
+    ---------------------------
+    |       |       |
+    List   Queue   set
+
+    List:-Arraylist
+         -Linked List
+         -vector-->stack
+
+    Queue:-priority Queue
+           -Dequeue
+           -Array deque
+
+    set:-Hashset
+        -LinkedHashSet
+
+
+
+
+
+
+
+
+

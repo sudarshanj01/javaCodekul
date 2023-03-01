@@ -1,0 +1,25 @@
+Throwable -
+                Exception:
+                (Checked Exception)
+                -  SqlException
+                -  ClassNotFoundException
+                -  IOException
+
+
+                (UnChecked Exception)
+                -  RuntimeException :
+                        - NullPointerException
+                        - NumberFormatException
+                        - ArithmeticException
+                        - ClassCastException
+                        - IndexOutOfBoundException
+                                - ArrayIndexOutOfBoundException
+                                - StringIndexOutOfBoundException
+
+
+
+         ////errors :-
+            - Error
+                - StackOverFlowError
+                - UnknownError
+                - OutMemoryError
